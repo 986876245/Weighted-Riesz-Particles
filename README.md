@@ -1,13 +1,13 @@
 # Weighted-Riesz-Particles
-# Variance Reduction of Resampling for SMC
 
-This MATLAB code implements the Variance Reduction of Resampling for Sequential Monte Carlo, which is built in two different dynamical models: a linear Gaussian state-space (LGSS) model and a stochastic volatility (SV) model. The details of our proposal is described in the paper available at https://openreview.net/pdf?id=3XinbUbSzPq
 
-Note that the MATLAB code in this folder covers the basic implementations in the paper. The notation of the variables has been changed sligthly compared with the tutorial paper to improve readability of the code. However, it should be easy to translate between the two. 
+This R code implements the Weighted-Riesz-Particles, which is built in two different dynamical models: a linear Gaussian state-space (LGSS) model and a stochastic volatility (SV) model. The details of our proposal is described in the paper available at https://openreview.net/pdf?id=3XinbUbSzPq
+
+Note that the R code in this folder covers the basic implementations in the paper. The notation of the variables has been changed sligthly compared with the tutorial paper to improve readability of the code. However, it should be easy to translate between the two. 
 
 Requirements
 --------------
-The code is written and tested for MATLAB 2021a and makes use of the statistics toolbox and the Quandl package. See https://github.com/quandl/Matlab for more installation and to download the toolbox. Note that urlread2 is required by the Quandl toolbox and should be installed as detailed in the README file of the Quandl toolbox.
+The code is written and tested for R and makes use of the statistics toolbox and the Quandl package. See https://github.com/quandl/R for more installation and to download the toolbox. Note that urlread2 is required by the Quandl toolbox and should be installed as detailed in the README file of the Quandl toolbox.
 
 Main script files
 --------------
