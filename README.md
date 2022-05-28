@@ -1,4 +1,4 @@
-# R code for PMH tutorial
+# R code for Weighted Riesz Particles
 
 This R code implements the Weighted Riesz Particles and particle Metropolis-Hastings (PMH) algorithm for two different dynamical models: a linear Gaussian state-space (LGSS) model with synthetic data and a non-linear stochastic volatility (SV) model with real-world data. The details of the code is described in the tutorial paper available at:
 
