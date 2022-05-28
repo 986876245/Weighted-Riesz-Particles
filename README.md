@@ -1,6 +1,6 @@
 # R code for PMH tutorial
 
-This R code implements the Kalman filter (KF), particle filter (PF) and particle Metropolis-Hastings (PMH) algorithm for two different dynamical models: a linear Gaussian state-space (LGSS) model and a stochastic volatility (SV) model. Note that the Kalman filter can only be employed for the first of these two models. The details of the code is described in the tutorial paper available at:
+This R code implements the Weighted Riesz Particles and particle Metropolis-Hastings (PMH) algorithm for two different dynamical models: a linear Gaussian state-space (LGSS) model with synthetic data and a non-linear stochastic volatility (SV) model with real-world data. The details of the code is described in the tutorial paper available at:
 
 Requirements
 --------------
@@ -13,16 +13,28 @@ Main script files
 --------------
 These are the main script files that implement the various algorithms discussed in the tutorial.
 
-**example1-lgss.R** State estimation in a LGSS model using the KF and a fully-adapted PF (faPF). The code is discussed in Section 3.1 and the results are presented in Section 3.2 as Figure 4 and Table 1.
-XMD:not in figure 4 but figure 3!
+**example1-lgss_XMD.R** State estimation in a LGSS model using the KF with weighted Riesz particles, the log-bias and the log-MSE of the filtered states under 100 Riesz particles for varying N. The results are presented in Section 4 Table 1.
 
-**example2-lgss.R** Parameter estimation of one parameter in the LGSS model using PMH with the faPF as the likelihood estimator. The code is discussed in Section 4.1 and the results are presented in Section 4.2 as Figure 5. XMD:Figure 4 not figure 5!
 
-**example3-sv.R** Parameter estimation of three parameters in the SV model using PMH with the bootstrap PF as the likelihood estimator. The code is discussed in Section 5.1 and the results are presented in Section 5.2 as Figure 6. The code takes about an hour to run. 
+**qqnorm_total.R** Theoretical Quantiles for 20, 100 and 200 Riesz particles. The results are presented in Section 4 Figure 1.
 
-**example4-sv.R** Modified version of the code in *example3-sv.R* to make use of a better tailored parameter proposal. The details are discussed in Section 6.3.2 and the results are presented in the same section as Figures 7 and 8. Note that the only difference in the code is that the variable stepSize is changed. :There is no figure 8!!
+Parameter estimation of one parameter in the LGSS model using PMH with the faPF as the likelihood estimator. The code is discussed in Section 4.1 and the results are presented in Section 4.2 as Figure 5. XMD:Figure 4 not figure 5!
 
-**example5-sv.R** Modified version of the code in *example3-sv.R* to make use of another parameterisation of the model and a better tailored parameter proposal. The details are discussed in Section 6.3.3 and the results are presented in the same section. Note that the differences in the code is the use of another implementation of PMH ant that the variable stepSize is changed.
+**example2-lgss-varyingT_XMD.R** The estimated posterior mean and variance when varying T. The results are presented in Section 4 Table 2.
+
+
+
+Parameter estimation of three parameters in the SV model using PMH with the bootstrap PF as the likelihood estimator. The code is discussed in Section 5.1 and the results are presented in Section 5.2 as Figure 6. The code takes about an hour to run. 
+
+**example2-lgss_XMD.R** Modified version of the code in *example3-sv.R* to make use of a better tailored parameter proposal. The details are discussed in Section 6.3.2 and the results are presented in the same section as Figures 7 and 8. Note that the only difference in the code is that the variable stepSize is changed. :There is no figure 8!!
+
+**example2-lgss_XMD.R ** Posterior estimate, burning process and ACF for different step size:$h_1=0.05, h_2=0.1, h_3=0.5$.
+
+**example3-sv_XMD_phd_recover_new.R ** Top: The daily log-returns and estimated log-volatility with $95\%$ confidence intervals of the NASDAQ OMXS30 index for the period between February 4, 2015 and February 4, 2016. Bottom: the posterior estimate(left), the trace of the Markov chain(middle) and the corresponding ACF(right) of $\mu$(purple), $\phi$(magenta) and $\sigma_v$(green) obtained from Riesz particles embedded PMH. The dotted and solid gray lines in the left and middle plots indicate the parameter posterior mean and the parameter priors, respectively.
+
+
+
+Modified version of the code in *example3-sv.R* to make use of another parameterisation of the model and a better tailored parameter proposal. The details are discussed in Section 6.3.3 and the results are presented in the same section. Note that the differences in the code is the use of another implementation of PMH ant that the variable stepSize is changed.
 
 
 Additional script files for creating plots for tutorial (extra-code-for-tutorial/)
