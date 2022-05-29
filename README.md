@@ -22,10 +22,10 @@ Parameter estimation of one parameter in the LGSS model using PMH with the faPF 
 
 **example2-lgss-varyingT_XMD.R** The estimated posterior mean and variance when varying T. The results are presented in Section 4 Table 2.
 
-**example2-lgss_XMD.R ** Posterior estimate, burning process and ACF for different step size:$h_1=0.05, h_2=0.1, h_3=0.5$.  The results are presented in Section 4 Figure 2. Parameter estimation of three parameters in the SV model using PMH with weighted Riesz particles embedding and the bootstrap PF as the likelihood estimator.
+**example2-lgss_XMD.R** Posterior estimate, burning process and ACF for different step size:$h_1=0.05, h_2=0.1, h_3=0.5$.  The results are presented in Section 4 Figure 2. Parameter estimation of three parameters in the SV model using PMH with weighted Riesz particles embedding and the bootstrap PF as the likelihood estimator.
 
 
-**example3-sv_XMD_phd_recover_new.R ** Top: The daily log-returns and estimated log-volatility with $95\%$ confidence intervals of the NASDAQ OMXS30 index for the period between February 4, 2015 and February 4, 2016. Bottom: the posterior estimate(left), the trace of the Markov chain(middle) and the corresponding ACF(right) of $\mu$(purple), $\phi$(magenta) and $\sigma_v$(green) obtained from Riesz particles embedded PMH. The dotted and solid gray lines in the left and middle plots indicate the parameter posterior mean and the parameter priors, respectively.
+**example3-sv_XMD_phd_recover_new.R** Top: The daily log-returns and estimated log-volatility with $95\%$ confidence intervals of the NASDAQ OMXS30 index for the period between February 4, 2015 and February 4, 2016. Bottom: the posterior estimate(left), the trace of the Markov chain(middle) and the corresponding ACF(right) of $\mu$(purple), $\phi$(magenta) and $\sigma_v$(green) obtained from Riesz particles embedded PMH. The dotted and solid gray lines in the left and middle plots indicate the parameter posterior mean and the parameter priors, respectively.
 
  
 Additional script files for creating plots for tutorial (extra-code-for-tutorial/)
