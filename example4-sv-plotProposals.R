@@ -3,8 +3,7 @@
 # proposal distribution adapted from a pilot run of particle
 # Metropolis-Hastings.
 # 
-# Johan Dahlin <uni (at) johandahlin.com.nospam>
-# Documentation at https://github.com/compops/pmh-tutorial
+
 # Published under GNU General Public License
 ##############################################################################
 
