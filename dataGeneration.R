@@ -1,8 +1,7 @@
 ##############################################################################
 # Generating data from a LGSS model
 # 
-# Johan Dahlin <uni (at) johandahlin.com.nospam>
-# Documentation at https://github.com/compops/pmh-tutorial
+
 # Published under GNU General Public License
 ##############################################################################
 generateData <- function(theta, noObservations, initialState)
