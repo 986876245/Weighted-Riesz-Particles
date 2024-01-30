@@ -1,8 +1,7 @@
 ##############################################################################
 # Make plots for tutorial
 #
-# Johan Dahlin <uni (at) johandahlin.com.nospam>
-# Documentation at https://github.com/compops/pmh-tutorial
+
 # Published under GNU General Public License
 ##############################################################################
 makePlotsParticleMetropolisHastingsSVModel <- function(y, res, noBurnInIterations, noIterations, nPlot) {
