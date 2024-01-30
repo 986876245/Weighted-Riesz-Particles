@@ -1,7 +1,7 @@
 ##############################################################################
 # Parameter estimation using particle Metropolis-Hastings in a SV
 # with a proposal adapted from a pilot run.
-#
+# 
 # Johan Dahlin <uni (at) johandahlin.com.nospam>
 # Documentation at https://github.com/compops/pmh-tutorial
 # Published under GNU General Public License
