@@ -2,8 +2,7 @@
 # Parameter estimation using particle Metropolis-Hastings in a reparameterised version of a
 # stochastic volatility model with a proposal adapted from a pilot run.
 #
-# Johan Dahlin <uni (at) johandahlin.com.nospam>
-# Documentation at https://github.com/compops/pmh-tutorial
+
 # Published under GNU General Public License
 ##############################################################################
 
