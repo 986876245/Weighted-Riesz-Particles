@@ -5,7 +5,7 @@ k=4*p
 k=80
 f=function(x)
 dnorm(x,0,1)
-
+ 
 lf=function(x) #log funtion of normal distribution
 -x^2/2
 
