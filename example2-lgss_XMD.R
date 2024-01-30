@@ -1,8 +1,7 @@
 ##############################################################################
 # Parameter estimation using particle Metropolis-Hastings in a LGSS model.
 # 
-# Johan Dahlin <uni (at) johandahlin.com.nospam>
-# Documentation at https://github.com/compops/pmh-tutorial
+
 # Published under GNU General Public License
 ##############################################################################
 setwd("/home/daixiongming/Documents/Code/pmh-tutorial-2.1/r")
