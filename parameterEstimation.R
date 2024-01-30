@@ -1,8 +1,7 @@
 ##############################################################################
 # Particle Metropolis-Hastings implemenations for LGSS and SV models
 #
-# Johan Dahlin <uni (at) johandahlin.com.nospam>
-# Documentation at https://github.com/compops/pmh-tutorial
+
 # Published under GNU General Public License
 ##############################################################################
 # Particle Metropolis-Hastings (LGSS model)
