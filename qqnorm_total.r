@@ -1,7 +1,7 @@
 setwd("/home/daixiongming/Documents/Code/pmh-tutorial-2.1/r")
 
 load("savedWorkspaces/example1-lgss_20.RData")
-
+d
 
 load("savedWorkspaces/example1-lgss_100.RData")
 
