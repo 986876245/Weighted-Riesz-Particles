@@ -1,8 +1,7 @@
 ##############################################################################
 # State estimation in LGSS and SV models using Kalman and particle filters.
 #
-# Johan Dahlin <uni (at) johandahlin.com.nospam>
-# Documentation at https://github.com/compops/pmh-tutorial
+
 # Published under GNU General Public License
 ##############################################################################
 
